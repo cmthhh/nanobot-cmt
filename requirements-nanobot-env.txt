@@ -1,0 +1,12 @@
+# Install this source checkout in editable mode with development/test dependencies.
+# Run from the repository root:
+#   pip install -r requirements-nanobot-env.txt
+-e .[dev]
+
+# Local Qwen API server (FastAPI + Transformers, uses MPS on Apple Silicon).
+fastapi>=0.115.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0
+transformers>=4.45.0
+torch>=2.3.0
+accelerate>=0.33.0,<2.0.0
+safetensors>=0.4.0,<1.0.0
