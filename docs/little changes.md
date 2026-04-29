@@ -1,4 +1,4 @@
-# Local Improvements
+# little changes
 
 本文记录当前分支里对 nanobot 做的两个主要改动：历史检索索引，以及针对本地小模型上下文污染的会话清理命令。
 
